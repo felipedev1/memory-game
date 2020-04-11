@@ -63,7 +63,7 @@ img{
   vertical-align: middle;
   }
 .restart:hover {
-  opacity: 80%;
+  background-color: goldenrod;
   color: #ccc;
   }
 .restart:active {

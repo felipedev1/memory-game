@@ -96,7 +96,7 @@ class Cards extends Component {
     return (
       <div>
         <div className={win ? 'visible' : 'none'}>
-          <h1 className="win">YOU WIN</h1>
+          <h1 className="win">YOU WON</h1>
           <button className='restart' onClick={() => window.location.reload(true)
           }>
             Click to Restart
