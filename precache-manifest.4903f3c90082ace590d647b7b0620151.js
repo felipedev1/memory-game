@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "244d532f69f23a03b9d574d6e081b550",
+    "revision": "f26e2865a2659be639d9d9acf1a4b183",
     "url": "/memory-game/index.html"
   },
   {
-    "revision": "d9746b581b74638796bf",
-    "url": "/memory-game/static/css/main.39be8339.chunk.css"
+    "revision": "e96ca21428555e2d2de8",
+    "url": "/memory-game/static/css/main.7dc45ad9.chunk.css"
   },
   {
     "revision": "c0eb6e5376a6f65a3d1c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/memory-game/static/js/2.626b5586.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d9746b581b74638796bf",
+    "revision": "e96ca21428555e2d2de8",
     "url": "/memory-game/static/js/main.a24e4307.chunk.js"
   },
   {
