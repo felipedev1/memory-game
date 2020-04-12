@@ -94,7 +94,7 @@ class Cards extends Component {
     else win = false
 
     return (
-      <div>
+      <>
         <div className={win ? 'visible' : 'none'}>
           <h1 className="win">YOU WON</h1>
           <button className='restart' onClick={() => window.location.reload(true)
@@ -105,7 +105,7 @@ class Cards extends Component {
         <div className={win ? 'none' : 'cards'}>
           {this.renderCard().map(card => card)}
         </div>
-      </div>
+      </>
     )
   }
 }
