@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './style.css'
-import Card from './Card'
+import Card from '../Card'
 
 //logos
 import cLogo from '../../assets/c.png'
@@ -47,13 +47,13 @@ class Cards extends Component {
     const flip = this.state.isFlipped.slice()
     console.log(pairs.indexOf(logo) === -1)
 
-    if (pair.length < 2 && pairs.indexOf(logo) === -1) {
+    if (pair.length < 2 && pairs.indexOf(logo) === -1 && !flip[index]) {
       pair.push({ logo, index })
       flip[index] = !flip[index]
     } else
-      if (flip[index] && pairs.indexOf(logo) === -1) {
-        flip[index] = !flip[index]
+      if (pair.length < 2 && flip[index] && pairs.indexOf(logo) === -1) {
         pair.pop()
+        flip[index] = !flip[index]
       } else return
 
     this.setState({ isFlipped: flip, pair: pair })
